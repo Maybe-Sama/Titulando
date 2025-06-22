@@ -30,9 +30,8 @@ const Footer = () => {
             </div>
             
             <p className="text-white/80 leading-relaxed mb-6 max-w-md">
-              Somos especialistas en asesoramiento académico para TFG y TFM. 
-              Ofrecemos apoyo legal, ético y profesional para que desarrolles 
-              tu proyecto final con excelencia y originalidad.
+              Se ofrece asesoramiento experto y tutorización personalizada para superar 
+              el proyecto final con confianza y originalidad.
             </p>
           </div>
 

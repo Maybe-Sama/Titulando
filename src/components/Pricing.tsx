@@ -86,7 +86,7 @@ const Pricing = () => {
           </h2>
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-neutral-dark/80 leading-relaxed mb-6">
-              Ofrecemos paquetes de asesoramiento que se ajustan a la extensión y complejidad de tu proyecto. 
+              Se ofrecen asesoramiento que se ajusta a la extensión y complejidad de tu proyecto. 
               El precio final se determinará con un presupuesto personalizado tras una consulta inicial, 
               considerando tus necesidades específicas y la envergadura del trabajo.
             </p>

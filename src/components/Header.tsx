@@ -50,7 +50,7 @@ const Header = () => {
             {[
               { path: '/', label: 'Inicio' },
               { path: '/servicios', label: 'Servicios' },
-              { path: '/proceso', label: 'Cómo Trabajamos' },
+              { path: '/proceso', label: 'Cómo se Trabaja' },
               { path: '/planes', label: 'Planes' },
               { path: '/nosotros', label: 'El Servicio' },
               { path: '/contacto', label: 'Contacto' }
@@ -95,7 +95,7 @@ const Header = () => {
               {[
                 { path: '/', label: 'Inicio' },
                 { path: '/servicios', label: 'Servicios' },
-                { path: '/proceso', label: 'Cómo Trabajamos' },
+                { path: '/proceso', label: 'Cómo se Trabaja' },
                 { path: '/planes', label: 'Planes' },
                 { path: '/nosotros', label: 'El Servicio' },
                 { path: '/contacto', label: 'Contacto' }
