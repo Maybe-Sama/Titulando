@@ -41,7 +41,7 @@ const Header = () => {
             </div>
             <div>
               <h1 className="text-xl font-display font-bold text-neutral-dark">Titulando</h1>
-              <p className="text-sm text-primary-500 font-medium">Asesoramiento experto para un TFG/TFM de sobresaliente</p>
+              <p className="text-sm text-primary-500 font-medium">Asesoramiento experto para un TFG/TFM</p>
             </div>
           </Link>
 
