@@ -6,8 +6,8 @@ const WhyChooseUs = () => {
   const reasons = [
     {
       icon: Award,
-      title: "Expertos Cualificados",
-      description: "Equipo de tutores con experiencia en diversas disciplinas universitarias.",
+      title: "Asesores Cualificados",
+      description: "Acceso a tutores con experiencia en diversas disciplinas universitarias.",
       color: "from-primary-500 to-primary-600"
     },
     {
@@ -37,7 +37,7 @@ const WhyChooseUs = () => {
     {
       icon: Users,
       title: "Experiencia Comprobada",
-      description: "Miles de estudiantes han logrado el éxito con nuestro acompañamiento.",
+      description: "Metodología probada con cientos de estudiantes que han logrado el éxito.",
       color: "from-mint-500 to-accent-500"
     }
   ];
@@ -61,18 +61,18 @@ const WhyChooseUs = () => {
         <div className="text-center mb-20 animate-fade-in">
           <div className="inline-flex items-center space-x-2 bg-white/60 backdrop-blur-sm px-4 py-2 rounded-full mb-6 shadow-soft">
             <Sparkles className="h-4 w-4 text-primary-500" />
-            <span className="text-sm font-medium text-primary-600">¿Por Qué Nosotros?</span>
+            <span className="text-sm font-medium text-primary-600">Características del Servicio</span>
           </div>
           
           <h2 className="text-4xl lg:text-6xl font-display font-bold text-neutral-dark mb-8">
-            Tu Éxito es
+            El Éxito del Estudiante es
             <span className="bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent block">
-              Nuestra Prioridad
+              la Prioridad
             </span>
           </h2>
           <p className="text-xl text-neutral-dark/80 max-w-3xl mx-auto leading-relaxed">
-            Nos diferenciamos por nuestro compromiso con la excelencia académica y 
-            el acompañamiento integral durante todo tu proceso de investigación.
+            El servicio se diferencia por el compromiso con la excelencia académica y 
+            el acompañamiento integral durante todo el proceso de investigación.
           </p>
         </div>
 
@@ -128,10 +128,10 @@ const WhyChooseUs = () => {
 
         <div className="text-center">
           <Link 
-            to="/nosotros"
+            to="/contacto"
             className="group bg-gradient-to-r from-primary-500 to-primary-600 text-white px-10 py-4 rounded-2xl hover:shadow-soft-lg transition-all duration-300 font-semibold text-lg flex items-center space-x-2 mx-auto"
           >
-            <span>Conoce a Nuestro Equipo</span>
+            <span>Solicitar Información</span>
             <Users className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
           </Link>
         </div>

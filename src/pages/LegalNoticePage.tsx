@@ -16,7 +16,7 @@ const LegalNoticePage = () => {
 
         <h3>1. Objeto</h3>
         <p>
-          El presente aviso legal regula el uso del sitio web Titulando (en adelante, "el sitio web"). El titular del sitio web ofrece servicios de asesoramiento y tutorización académica para la elaboración de Trabajos de Fin de Grado (TFG), Trabajos de Fin de Máster (TFM) y proyectos similares. Nuestros servicios consisten en una guía y apoyo educativo, y en ningún caso implican la redacción o venta de trabajos académicos.
+          El presente aviso legal regula el uso del sitio web Titulando (en adelante, "el sitio web"). A través del mismo se ofrecen servicios de asesoramiento y tutorización académica para la elaboración de Trabajos de Fin de Grado (TFG), Trabajos de Fin de Máster (TFM) y proyectos similares. Los servicios consisten en una guía y apoyo educativo, y en ningún caso implican la redacción o venta de trabajos académicos.
         </p>
 
         <h3>2. Condiciones de Uso</h3>

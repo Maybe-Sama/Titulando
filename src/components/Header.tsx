@@ -52,7 +52,7 @@ const Header = () => {
               { path: '/servicios', label: 'Servicios' },
               { path: '/proceso', label: 'Cómo Trabajamos' },
               { path: '/planes', label: 'Planes' },
-              { path: '/nosotros', label: 'Sobre Nosotros' },
+              { path: '/nosotros', label: 'El Servicio' },
               { path: '/contacto', label: 'Contacto' }
             ].map((item) => (
               <Link 
@@ -97,7 +97,7 @@ const Header = () => {
                 { path: '/servicios', label: 'Servicios' },
                 { path: '/proceso', label: 'Cómo Trabajamos' },
                 { path: '/planes', label: 'Planes' },
-                { path: '/nosotros', label: 'Sobre Nosotros' },
+                { path: '/nosotros', label: 'El Servicio' },
                 { path: '/contacto', label: 'Contacto' }
               ].map((item) => (
                 <Link 

@@ -53,7 +53,7 @@ const Process = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-20 animate-fade-in">
           <h2 className="text-4xl lg:text-6xl font-display font-bold text-neutral-dark mb-8">
-            Nuestro Proceso:
+            Proceso de Trabajo:
             <span className="bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent block">
               Simple, Transparente y Efectivo
             </span>

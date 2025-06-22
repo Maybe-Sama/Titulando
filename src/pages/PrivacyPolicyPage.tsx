@@ -34,7 +34,7 @@ const PrivacyPolicyPage = () => {
         
         <h3>6. ¿Cuáles son tus derechos cuando nos facilitas tus datos?</h3>
         <p>
-          Tienes derecho a obtener confirmación sobre si estamos tratando tus datos personales. Tienes derecho a acceder a tus datos personales, así como a solicitar la rectificación de los datos inexactos o, en su caso, solicitar su supresión cuando, entre otros motivos, los datos ya no sean necesarios para los fines que fueron recogidos. Para ejercer tus derechos, puedes contactarnos a través de nuestro email.
+          Tienes derecho a obtener confirmación sobre si se están tratando tus datos personales. Tienes derecho a acceder a tus datos personales, así como a solicitar la rectificación de los datos inexactos o, en su caso, solicitar su supresión cuando, entre otros motivos, los datos ya no sean necesarios para los fines que fueron recogidos. Para ejercer tus derechos, puedes contactar a través del email proporcionado.
         </p>
       </LegalPageLayout>
       <Footer />

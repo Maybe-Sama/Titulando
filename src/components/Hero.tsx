@@ -27,7 +27,7 @@ const Hero = () => {
               </span>
               <span className="text-2xl lg:text-3xl text-primary-500 font-medium block mt-4 flex items-center justify-center lg:justify-start">
                 <Target className="h-8 w-8 mr-2 text-accent-500" />
-                Nosotros te impulsamos hacia el éxito
+                Impulso y metodología para tu éxito
               </span>
             </h1>
             

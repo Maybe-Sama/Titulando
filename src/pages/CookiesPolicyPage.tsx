@@ -13,7 +13,7 @@ const CookiesPolicyPage = () => {
 
         <h3>2. ¿Qué tipos de cookies utiliza este sitio web?</h3>
         <p>
-          Actualmente, nuestro sitio web utiliza principalmente cookies técnicas y de personalización, que son esenciales para el funcionamiento del sitio y para recordar tus preferencias (por ejemplo, el idioma). No utilizamos cookies de análisis de terceros ni cookies publicitarias.
+          Este sitio web utiliza principalmente cookies técnicas y de personalización, que son esenciales para el funcionamiento del sitio y para recordar las preferencias del usuario (por ejemplo, el idioma). No se utilizan cookies de análisis de terceros ni cookies publicitarias.
         </p>
         <ul>
           <li><strong>Cookies técnicas:</strong> Son aquellas que permiten al usuario la navegación a través de una página web y la utilización de las diferentes opciones o servicios que en ella existan.</li>

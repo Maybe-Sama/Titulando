@@ -63,8 +63,8 @@ const Services = () => {
             </span>
           </h2>
           <p className="text-xl text-neutral-dark/80 max-w-4xl mx-auto leading-relaxed">
-            Ofrecemos una gama de servicios diseñados para asistirte en cada etapa de tu TFG o TFM, 
-            garantizando que el proceso sea claro y el resultado, impecable. Nuestro enfoque es la guía, 
+            Se ofrece una gama de servicios diseñados para asistir en cada etapa de tu TFG o TFM, 
+            garantizando que el proceso sea claro y el resultado, impecable. El enfoque es la guía, 
             la revisión y el acompañamiento para que desarrolles tu propio proyecto con excelencia.
           </p>
         </div>
@@ -109,7 +109,7 @@ const Services = () => {
             to="/planes"
             className="group bg-gradient-to-r from-primary-500 to-primary-600 text-white px-10 py-4 rounded-2xl hover:shadow-soft-lg transition-all duration-300 font-semibold text-lg flex items-center space-x-2 mx-auto"
           >
-            <span>Explora Todos Nuestros Servicios</span>
+            <span>Ver Todos los Planes</span>
             <Sparkles className="h-5 w-5 group-hover:rotate-12 transition-transform duration-300" />
           </Link>
         </div>

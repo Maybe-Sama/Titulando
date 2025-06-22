@@ -7,28 +7,28 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "¿Vuestro servicio es como 'comprar un TFG'?",
-      answer: "Para nada. De hecho, estamos totalmente en contra de esas prácticas. Nuestro trabajo es darte clases particulares y asesoramiento. Te enseñamos a investigar, a redactar y a estructurar tu trabajo para que seas tú quien lo cree, con nuestra guía y apoyo. El mérito y la autoría son siempre tuyos."
+      question: "¿Este servicio es como 'comprar un TFG'?",
+      answer: "En absoluto. Esas prácticas son contrarias a la ética académica. El servicio consiste en ofrecer clases particulares y asesoramiento. Se proporcionan las herramientas para investigar, redactar y estructurar el trabajo, de modo que la autoría y el mérito sean siempre del estudiante."
     },
     {
-      question: "¿Cómo sé que mi trabajo será original?",
-      answer: "Porque lo escribirás tú. Nosotros te guiaremos en cómo citar correctamente y evitar el plagio. Además, podemos usar herramientas como Turnitin para revisar borradores, pero son solo una ayuda. La clave es que, con nuestro acompañamiento, aprenderás a crear contenido 100% original."
+      question: "¿Cómo se asegura la originalidad del trabajo?",
+      answer: "La originalidad se garantiza porque el trabajo es desarrollado por el propio estudiante. La guía se centra en enseñar a citar correctamente y evitar el plagio. Se pueden usar herramientas como Turnitin como apoyo, pero la clave del proceso es el aprendizaje para crear contenido 100% original."
     },
     {
-      question: "¿Qué pasa si suspendo?",
-      answer: "Nuestro objetivo es darte todas las herramientas y conocimientos para que apruebes con nota. La nota final depende de ti y del criterio de tu universidad, pero nos comprometemos a fondo contigo. Si algo no sale bien, seguiremos aquí para ayudarte a analizar qué pasó y cómo solucionarlo."
+      question: "¿Qué ocurre si la calificación no es la esperada?",
+      answer: "El objetivo es proporcionar todas las herramientas y conocimientos para obtener la mejor calificación posible. La nota final depende del esfuerzo del estudiante y del criterio de la universidad. Si el resultado no es el esperado, se ofrece apoyo para analizar la situación y encontrar soluciones."
     },
     {
-      question: "¿Quién será mi tutor?",
-      answer: "Te asignaremos un profesional experto en tu campo. No es solo alguien que sabe del tema, sino una persona con experiencia en trabajos académicos, que entiende lo que necesitas y te hablará de tú a tú para que saques lo mejor de tu proyecto."
+      question: "¿Quién imparte el asesoramiento?",
+      answer: "Se asigna un profesional experto en el campo de estudio. No solo una persona con conocimiento en la materia, sino con experiencia específica en trabajos académicos, para ofrecer el apoyo más adecuado a cada proyecto."
     },
     {
-      question: "¿Mis datos y el tema de mi trabajo son confidenciales?",
-      answer: "Totalmente. La confidencialidad es sagrada para nosotros. Todo lo que hables con tu tutor y la información de tu proyecto se trata con la máxima discreción, cumpliendo rigurosamente la Ley de Protección de Datos (RGPD)."
+      question: "¿Los datos y el tema del trabajo son confidenciales?",
+      answer: "Sí. La confidencialidad es un pilar fundamental del servicio. Toda la información del proyecto y los datos personales se tratan con la máxima discreción, en cumplimiento riguroso con la Ley de Protección de Datos (RGPD)."
     },
     {
-      question: "¿Cuánto me va a costar todo el proceso?",
-      answer: "Depende de lo que necesites. No hay dos proyectos iguales. Por eso, primero hablamos contigo, entendemos tu caso y te preparamos un presupuesto cerrado, claro y sin sorpresas. La primera consulta para valorar tu caso es siempre gratuita."
+      question: "¿Cuál es el coste del proceso?",
+      answer: "El coste depende de las necesidades de cada proyecto. No hay dos trabajos iguales. Por ello, el primer paso es una consulta gratuita para valorar el caso y preparar un presupuesto cerrado, claro y sin sorpresas."
     }
   ];
 
@@ -56,8 +56,8 @@ const FAQ = () => {
             </span>
           </h2>
           <p className="text-xl text-neutral-dark/80 max-w-3xl mx-auto">
-            Encuentra respuestas a las preguntas más frecuentes sobre nuestros servicios 
-            de asesoramiento académico y cómo podemos ayudarte con tu TFG o TFM.
+            Encuentra respuestas a las preguntas más frecuentes sobre el servicio 
+            de asesoramiento académico y cómo puede ayudarte con tu TFG o TFM.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ const FAQ = () => {
             to="/contacto"
             className="group bg-gradient-to-r from-accent-500 to-accent-400 text-neutral-dark px-10 py-4 rounded-2xl hover:shadow-accent transition-all duration-300 font-semibold text-lg flex items-center space-x-2 mx-auto"
           >
-            <span>Contacta con Nosotros</span>
+            <span>Contactar para más Información</span>
             <Sparkles className="h-5 w-5 group-hover:rotate-12 transition-transform duration-300" />
           </Link>
         </div>

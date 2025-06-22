@@ -119,8 +119,8 @@ const Footer = () => {
           
           <div className="mt-4 pt-4 border-t border-white/5">
             <p className="text-xs text-white/60 text-center leading-relaxed">
-              Importante: Nuestro servicio es de asesoramiento, tutorización y apoyo académico. 
-              No vendemos trabajos académicos. El objetivo es guiar al estudiante para que desarrolle 
+              Importante: El servicio consiste en asesoramiento, tutorización y apoyo académico. 
+              No se realizan ni venden trabajos académicos. El objetivo es guiar al estudiante para que desarrolle 
               su propio TFG/TFM con originalidad y calidad académica. La responsabilidad de la entrega 
               final y su evaluación corresponde exclusivamente al estudiante.
             </p>

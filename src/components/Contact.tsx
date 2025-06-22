@@ -52,8 +52,8 @@ const Contact = () => {
             </span>
           </h2>
           <p className="text-xl text-neutral-dark/80 max-w-3xl mx-auto">
-            Contacta con nosotros sin compromiso y recibe un presupuesto personalizado 
-            para tu proyecto académico. Estamos aquí para ayudarte a alcanzar el éxito.
+            Solicita un presupuesto personalizado sin compromiso 
+            para tu proyecto académico. El servicio está diseñado para ayudarte a alcanzar el éxito.
           </p>
         </div>
 
@@ -93,7 +93,7 @@ const Contact = () => {
             <div className="bg-gradient-to-br from-primary-500/5 to-accent-500/5 p-6 rounded-2xl border border-primary-500/10 backdrop-blur-sm">
               <h4 className="font-display font-semibold text-neutral-dark mb-4 flex items-center space-x-2">
                 <Sparkles className="h-5 w-5 text-primary-500" />
-                <span>¿Por qué confiar en nosotros?</span>
+                <span>Garantías del Servicio</span>
               </h4>
               <div className="space-y-3">
                 {[

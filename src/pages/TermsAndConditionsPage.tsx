@@ -8,7 +8,7 @@ const TermsAndConditionsPage = () => {
       <LegalPageLayout title="Términos y Condiciones de Contratación">
         <h3>1. Objeto del Servicio</h3>
         <p>
-          Titulando ofrece un servicio de asesoramiento y tutorización académica para estudiantes que estén realizando su TFG, TFM o proyectos similares. Nuestro servicio es una guía educativa y de apoyo. No realizamos, redactamos ni vendemos trabajos académicos.
+          Titulando ofrece un servicio de asesoramiento y tutorización académica para estudiantes que estén realizando su TFG, TFM o proyectos similares. El servicio es una guía educativa y de apoyo. No se realizan, redactan ni venden trabajos académicos.
         </p>
 
         <h3>2. Proceso de Contratación</h3>
@@ -18,7 +18,7 @@ const TermsAndConditionsPage = () => {
 
         <h3>3. Obligaciones del Estudiante</h3>
         <p>
-          El estudiante es el único autor y responsable de su trabajo. Se compromete a utilizar nuestro asesoramiento de manera ética y a no presentar como propio ningún contenido que no haya elaborado. El estudiante es responsable de cumplir los plazos y directrices de su universidad.
+          El estudiante es el único autor y responsable de su trabajo. Se compromete a utilizar el asesoramiento de manera ética y a no presentar como propio ningún contenido que no haya elaborado. El estudiante es responsable de cumplir los plazos y directrices de su universidad.
         </p>
         
         <h3>4. Precios y Forma de Pago</h3>
