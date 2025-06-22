@@ -7,7 +7,7 @@ const Process = () => {
     {
       icon: MessageCircle,
       title: "Consulta Gratuita",
-      description: "Contacta sin compromiso y cuéntanos sobre tu proyecto. Analizaremos tus necesidades.",
+      description: "El primer paso es una consulta sin compromiso para analizar las necesidades del proyecto.",
       color: "from-primary-500 to-primary-600"
     },
     {
@@ -18,26 +18,26 @@ const Process = () => {
     },
     {
       icon: UserCheck,
-      title: "Tutor Asignado",
-      description: "Te asignamos un experto cualificado en tu disciplina para un acompañamiento especializado.",
+      title: "Asignación de Tutor",
+      description: "Se asigna un experto cualificado en la disciplina para un acompañamiento especializado.",
       color: "from-mint-500 to-primary-500"
     },
     {
       icon: Users,
       title: "Colaboración Activa",
-      description: "Trabaja mano a mano con tu tutor a través de nuestra plataforma privada, con entregas progresivas.",
+      description: "Colaboración continua con el tutor a través de una plataforma privada, con entregas progresivas.",
       color: "from-primary-600 to-accent-500"
     },
     {
       icon: CheckCircle,
       title: "Revisión y Feedback",
-      description: "Recibe retroalimentación constante para pulir tu trabajo y asegurar tu comprensión.",
+      description: "Retroalimentación constante para pulir el trabajo y asegurar la comprensión del estudiante.",
       color: "from-accent-400 to-mint-500"
     },
     {
       icon: Trophy,
       title: "Entrega Final",
-      description: "Prepárate para presentar tu TFG/TFM con total seguridad y confianza.",
+      description: "Preparación y apoyo para presentar el TFG/TFM con total seguridad y confianza.",
       color: "from-primary-500 to-accent-500"
     }
   ];
@@ -100,11 +100,11 @@ const Process = () => {
         </div>
 
         <div className="text-center">
-          <Link 
+          <Link
             to="/contacto"
             className="group bg-gradient-to-r from-accent-500 to-accent-400 text-neutral-dark px-10 py-4 rounded-2xl hover:shadow-accent transition-all duration-300 font-semibold text-lg flex items-center space-x-2 mx-auto"
           >
-            <span>Empieza Hoy tu Proyecto</span>
+            <span>Iniciar el Proceso</span>
             <Trophy className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
           </Link>
         </div>

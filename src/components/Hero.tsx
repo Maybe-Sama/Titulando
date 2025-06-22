@@ -32,15 +32,15 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl text-neutral-dark/80 mb-8 leading-relaxed max-w-2xl">
-              Ofrecemos asesoramiento experto y tutorización personalizada para que superes 
-              tu proyecto final con confianza y originalidad.
+              Se ofrece asesoramiento experto y tutorización personalizada para superar 
+              el proyecto final con confianza y originalidad.
             </p>
 
             {/* Benefits */}
             <div className="flex flex-col sm:flex-row gap-4 mb-10 justify-center lg:justify-start">
               {[
                 { icon: CheckCircle, text: "100% Legal y Ético" },
-                { icon: Lightbulb, text: "Expertos Cualificados" },
+                { icon: Lightbulb, text: "Asesoramiento Cualificado" },
                 { icon: CheckCircle, text: "Confidencialidad Total" }
               ].map((benefit, index) => (
                 <div key={index} className="flex items-center space-x-2 bg-white/60 backdrop-blur-sm px-4 py-2 rounded-full shadow-soft">

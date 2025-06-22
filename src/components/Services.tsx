@@ -7,19 +7,19 @@ const Services = () => {
     {
       icon: BookOpen,
       title: "Asesoramiento Metodológico",
-      description: "Te guiamos en la estructura, elección de tema, búsqueda bibliográfica y planteamiento de hipótesis.",
+      description: "Guía en la estructura, elección de tema, búsqueda bibliográfica y planteamiento de hipótesis.",
       color: "from-primary-500 to-primary-600"
     },
     {
       icon: Users,
       title: "Tutorización Personalizada",
-      description: "Sesiones individuales con expertos en tu área para resolver dudas y optimizar tu progreso.",
+      description: "Sesiones individuales con profesionales expertos en cada área para resolver dudas y optimizar el progreso.",
       color: "from-accent-500 to-accent-400"
     },
     {
       icon: FileText,
       title: "Revisión y Corrección de Estilo",
-      description: "Mejoramos la redacción, gramática y adaptamos el formato (APA, Vancouver, etc.) de tu trabajo.",
+      description: "Revisión y mejora de la redacción, gramática y adaptación del formato (APA, Vancouver, etc.).",
       color: "from-mint-500 to-primary-500"
     },
     {
@@ -31,13 +31,13 @@ const Services = () => {
     {
       icon: Presentation,
       title: "Preparación para la Defensa",
-      description: "Consejos prácticos y simulación para que domines tu exposición oral y respondas con seguridad.",
+      description: "Consejos prácticos y simulación para dominar la exposición oral y responder con seguridad.",
       color: "from-accent-400 to-primary-500"
     },
     {
       icon: Shield,
       title: "Informe Antiplagio (Turnitin)",
-      description: "Te proporcionamos un informe para verificar la originalidad de tu contenido y evitar sorpresas.",
+      description: "Provisión de un informe para verificar la originalidad del contenido y evitar sorpresas.",
       color: "from-mint-500 to-accent-500"
     }
   ];
@@ -63,9 +63,9 @@ const Services = () => {
             </span>
           </h2>
           <p className="text-xl text-neutral-dark/80 max-w-4xl mx-auto leading-relaxed">
-            Se ofrece una gama de servicios diseñados para asistir en cada etapa de tu TFG o TFM, 
+            Se ofrece una gama de servicios diseñados para asistir al estudiante en cada etapa de su TFG o TFM, 
             garantizando que el proceso sea claro y el resultado, impecable. El enfoque es la guía, 
-            la revisión y el acompañamiento para que desarrolles tu propio proyecto con excelencia.
+            la revisión y el acompañamiento para el desarrollo de un proyecto propio con excelencia.
           </p>
         </div>
 

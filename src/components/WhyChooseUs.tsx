@@ -13,25 +13,25 @@ const WhyChooseUs = () => {
     {
       icon: Lock,
       title: "Confidencialidad Total",
-      description: "Garantizamos la máxima discreción y protección de tus datos.",
+      description: "Se garantiza la máxima discreción y protección de los datos del estudiante.",
       color: "from-accent-500 to-accent-400"
     },
     {
       icon: FileCheck,
       title: "Originalidad y Calidad",
-      description: "Te guiamos para que tu trabajo sea 100% original y de alta calidad académica.",
+      description: "Guía para asegurar que el trabajo sea 100% original y de alta calidad académica.",
       color: "from-mint-500 to-primary-500"
     },
     {
       icon: Headphones,
       title: "Soporte Personalizado",
-      description: "Atención individualizada y adaptada a tus tiempos y necesidades.",
+      description: "Atención individualizada y adaptada a los tiempos y necesidades de cada estudiante.",
       color: "from-primary-600 to-accent-500"
     },
     {
       icon: MessageSquare,
       title: "Comunicación Fluida",
-      description: "Plataforma privada para una interacción constante con tu tutor.",
+      description: "Plataforma privada para una interacción constante con el tutor asignado.",
       color: "from-accent-400 to-mint-500"
     },
     {

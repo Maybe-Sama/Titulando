@@ -14,7 +14,7 @@ const PrivacyPolicyPage = () => {
 
         <h3>2. ¿Con qué finalidad tratamos tus datos personales?</h3>
         <p>
-          Tratamos la información que nos facilitas con el fin de prestarte el servicio de asesoramiento solicitado, realizar la facturación del mismo y gestionar la relación contractual. Los datos proporcionados a través del formulario de contacto se utilizarán exclusivamente para responder a tu consulta y proporcionarte un presupuesto.
+          La información facilitada se trata con el fin de prestar el servicio de asesoramiento solicitado, realizar la facturación del mismo y gestionar la relación contractual. Los datos proporcionados a través del formulario de contacto se utilizarán exclusivamente para responder a la consulta y proporcionar un presupuesto.
         </p>
 
         <h3>3. ¿Por cuánto tiempo conservaremos tus datos?</h3>
@@ -24,7 +24,7 @@ const PrivacyPolicyPage = () => {
         
         <h3>4. ¿Cuál es la legitimación para el tratamiento de tus datos?</h3>
         <p>
-          La base legal para el tratamiento de tus datos es la ejecución del contrato de servicios que has solicitado, así como el consentimiento que nos otorgas al contactarnos.
+          La base legal para el tratamiento de los datos es la ejecución del contrato de servicios que se solicita, así como el consentimiento otorgado al contactar.
         </p>
 
         <h3>5. ¿A qué destinatarios se comunicarán tus datos?</h3>

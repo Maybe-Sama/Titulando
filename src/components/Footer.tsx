@@ -25,7 +25,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-2xl font-display font-bold">Titulando</h3>
-                <p className="text-white/70">Tu guía experta para un TFG/TFM</p>
+                <p className="text-white/70">Asesoramiento académico para TFG y TFM</p>
               </div>
             </div>
             
