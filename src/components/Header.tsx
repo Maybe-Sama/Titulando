@@ -40,7 +40,7 @@ const Header = () => {
               <Sparkles className="absolute -top-1 -right-1 h-4 w-4 text-accent-500 animate-pulse-soft" />
             </div>
             <div>
-              <h1 className="text-xl font-display font-bold text-neutral-dark">Tu TFG Éxito</h1>
+              <h1 className="text-xl font-display font-bold text-neutral-dark">Titulando</h1>
               <p className="text-sm text-primary-500 font-medium">Tu guía experta para un TFG/TFM de sobresaliente</p>
             </div>
           </Link>
