@@ -7,6 +7,10 @@ import ProcessPage from './pages/ProcessPage';
 import PricingPage from './pages/PricingPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import LegalNoticePage from './pages/LegalNoticePage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import CookiesPolicyPage from './pages/CookiesPolicyPage';
+import TermsAndConditionsPage from './pages/TermsAndConditionsPage';
 
 function App() {
   return (
@@ -20,6 +24,10 @@ function App() {
           <Route path="/planes" element={<PricingPage />} />
           <Route path="/nosotros" element={<AboutPage />} />
           <Route path="/contacto" element={<ContactPage />} />
+          <Route path="/aviso-legal" element={<LegalNoticePage />} />
+          <Route path="/politica-privacidad" element={<PrivacyPolicyPage />} />
+          <Route path="/politica-cookies" element={<CookiesPolicyPage />} />
+          <Route path="/terminos-condiciones" element={<TermsAndConditionsPage />} />
         </Routes>
       </div>
     </Router>

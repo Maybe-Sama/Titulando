@@ -7,36 +7,28 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "¿Es legal vuestro servicio?",
-      answer: "Absolutamente. Ofrecemos un servicio de asesoramiento, tutorización y apoyo académico, no vendemos trabajos. Nuestro objetivo es guiarte para que elabores tu propio TFG/TFM, cumpliendo con los estándares de calidad y originalidad de tu universidad. La responsabilidad de la entrega final es siempre del estudiante."
+      question: "¿Vuestro servicio es como 'comprar un TFG'?",
+      answer: "Para nada. De hecho, estamos totalmente en contra de esas prácticas. Nuestro trabajo es darte clases particulares y asesoramiento. Te enseñamos a investigar, a redactar y a estructurar tu trabajo para que seas tú quien lo cree, con nuestra guía y apoyo. El mérito y la autoría son siempre tuyos."
     },
     {
-      question: "¿Garantizáis la aprobación de mi TFG/TFM?",
-      answer: "Te proporcionamos las herramientas y el acompañamiento para maximizar tus posibilidades de éxito. La aprobación final depende de tu dedicación, la calidad de tu trabajo y la evaluación de tu universidad. Nuestro enfoque es educativo y de apoyo académico."
+      question: "¿Cómo sé que mi trabajo será original?",
+      answer: "Porque lo escribirás tú. Nosotros te guiaremos en cómo citar correctamente y evitar el plagio. Además, podemos usar herramientas como Turnitin para revisar borradores, pero son solo una ayuda. La clave es que, con nuestro acompañamiento, aprenderás a crear contenido 100% original."
     },
     {
-      question: "¿Cómo garantizáis la originalidad?",
-      answer: "Te ayudamos a desarrollar contenido original y proporcionamos un informe de similitud (Turnitin) como herramienta de verificación para que tengas la tranquilidad de que tu trabajo es único. Todo el contenido se desarrolla bajo tu supervisión y autoría."
+      question: "¿Qué pasa si suspendo?",
+      answer: "Nuestro objetivo es darte todas las herramientas y conocimientos para que apruebes con nota. La nota final depende de ti y del criterio de tu universidad, pero nos comprometemos a fondo contigo. Si algo no sale bien, seguiremos aquí para ayudarte a analizar qué pasó y cómo solucionarlo."
     },
     {
-      question: "¿Cómo se asigna el tutor?",
-      answer: "Asignamos a un experto en tu área de estudio y temática específica, buscando la mejor afinidad para tu proyecto. Consideramos tu disciplina, metodología de investigación y preferencias para garantizar el mejor acompañamiento académico."
+      question: "¿Quién será mi tutor?",
+      answer: "Te asignaremos un profesional experto en tu campo. No es solo alguien que sabe del tema, sino una persona con experiencia en trabajos académicos, que entiende lo que necesitas y te hablará de tú a tú para que saques lo mejor de tu proyecto."
     },
     {
-      question: "¿Cuál es el coste final de mi proyecto?",
-      answer: "El coste se calcula mediante un presupuesto personalizado, valorando la extensión, complejidad, área de estudio y tiempo de entrega. Solicita tu presupuesto gratuito para una estimación precisa. No hay costes ocultos y te informaremos de todo por adelantado."
+      question: "¿Mis datos y el tema de mi trabajo son confidenciales?",
+      answer: "Totalmente. La confidencialidad es sagrada para nosotros. Todo lo que hables con tu tutor y la información de tu proyecto se trata con la máxima discreción, cumpliendo rigurosamente la Ley de Protección de Datos (RGPD)."
     },
     {
-      question: "¿Es confidencial mi información?",
-      answer: "Sí, garantizamos total confidencialidad sobre tus datos y el contenido de tu proyecto. Cumplimos con la normativa de protección de datos (RGPD) y nunca compartimos información personal o académica con terceros."
-    },
-    {
-      question: "¿Qué incluye el seguimiento personalizado?",
-      answer: "Incluye sesiones de tutoría online, acceso a una plataforma privada para comunicación constante, revisión de entregas parciales, feedback continuo y apoyo durante todo el proceso de desarrollo de tu proyecto."
-    },
-    {
-      question: "¿Cuánto tiempo toma completar el asesoramiento?",
-      answer: "El tiempo depende de la complejidad de tu proyecto y tus necesidades específicas. Generalmente, el proceso completo puede tomar entre 4-12 semanas, pero nos adaptamos a tus plazos y disponibilidad académica."
+      question: "¿Cuánto me va a costar todo el proceso?",
+      answer: "Depende de lo que necesites. No hay dos proyectos iguales. Por eso, primero hablamos contigo, entendemos tu caso y te preparamos un presupuesto cerrado, claro y sin sorpresas. La primera consulta para valorar tu caso es siempre gratuita."
     }
   ];
 

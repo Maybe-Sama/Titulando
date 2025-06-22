@@ -1,5 +1,6 @@
 import React from 'react';
 import { GraduationCap, Mail, Phone, Facebook, Twitter, Linkedin, Instagram, Sparkles } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -33,18 +34,6 @@ const Footer = () => {
               Ofrecemos apoyo legal, ético y profesional para que desarrolles 
               tu proyecto final con excelencia y originalidad.
             </p>
-            
-            <div className="flex space-x-4">
-              {[Facebook, Twitter, Linkedin, Instagram].map((Icon, index) => (
-                <a 
-                  key={index}
-                  href="#" 
-                  className="bg-white/10 backdrop-blur-sm p-3 rounded-2xl hover:bg-gradient-to-br hover:from-primary-500 hover:to-accent-500 transition-all duration-300 group"
-                >
-                  <Icon className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Contact Info */}
@@ -58,16 +47,16 @@ const Footer = () => {
                 <div className="bg-gradient-to-br from-primary-500 to-accent-500 p-2 rounded-xl">
                   <Phone className="h-4 w-4 text-white" />
                 </div>
-                <a href="tel:+34900123456" className="text-white/80 hover:text-white transition-colors">
-                  +34 900 123 456
+                <a href="tel:+34655909217" className="text-white/80 hover:text-white transition-colors">
+                  +34 655 90 92 17
                 </a>
               </div>
               <div className="flex items-center space-x-3 group">
                 <div className="bg-gradient-to-br from-accent-500 to-primary-500 p-2 rounded-xl">
                   <Mail className="h-4 w-4 text-white" />
                 </div>
-                <a href="mailto:info@tutfgexito.com" className="text-white/80 hover:text-white transition-colors">
-                  info@tutfgexito.com
+                <a href="mailto:titulando@gmail.com" className="text-white/80 hover:text-white transition-colors">
+                  titulando@gmail.com
                 </a>
               </div>
             </div>
@@ -75,7 +64,6 @@ const Footer = () => {
             <div className="mt-6">
               <h5 className="font-display font-semibold mb-2 text-accent-500">Horario de Atención</h5>
               <p className="text-white/70 text-sm">Lunes a Viernes: 9:00 - 20:00</p>
-              <p className="text-white/70 text-sm">Sábados: 10:00 - 14:00</p>
             </div>
           </div>
 
@@ -86,14 +74,19 @@ const Footer = () => {
               <span>Enlaces Legales</span>
             </h4>
             <div className="space-y-3">
-              {['Aviso Legal', 'Política de Privacidad', 'Política de Cookies', 'Términos y Condiciones'].map((link, index) => (
-                <a 
-                  key={index}
-                  href="#" 
+              {[
+                { label: 'Aviso Legal', path: '/aviso-legal' },
+                { label: 'Política de Privacidad', path: '/politica-privacidad' },
+                { label: 'Política de Cookies', path: '/politica-cookies' },
+                { label: 'Términos y Condiciones', path: '/terminos-condiciones' }
+              ].map((link) => (
+                <Link 
+                  key={link.path}
+                  to={link.path} 
                   className="block text-white/80 hover:text-white transition-colors hover:translate-x-1 duration-300"
                 >
-                  {link}
-                </a>
+                  {link.label}
+                </Link>
               ))}
             </div>
             

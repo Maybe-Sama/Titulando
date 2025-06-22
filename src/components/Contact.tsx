@@ -66,9 +66,9 @@ const Contact = () => {
             
             <div className="space-y-6 mb-8">
               {[
-                { icon: Phone, title: "Teléfono", content: "+34 900 123 456", href: "tel:+34900123456", color: "from-primary-500 to-primary-600" },
-                { icon: Mail, title: "Email", content: "info@tutfgexito.com", href: "mailto:info@tutfgexito.com", color: "from-accent-500 to-accent-400" },
-                { icon: Clock, title: "Horario de Atención", content: "Lunes a Viernes: 9:00 - 20:00\nSábados: 10:00 - 14:00", color: "from-mint-500 to-primary-500" },
+                { icon: Phone, title: "Teléfono", content: "+34 655 90 92 17", href: "tel:+34655909217", color: "from-primary-500 to-primary-600" },
+                { icon: Mail, title: "Email", content: "titulando@gmail.com", href: "mailto:titulando@gmail.com", color: "from-accent-500 to-accent-400" },
+                { icon: Clock, title: "Horario de Atención", content: "Lunes a Viernes: 9:00 - 20:00", color: "from-mint-500 to-primary-500" },
                 { icon: MapPin, title: "Servicio", content: "Online a Nivel Nacional\nToda España", color: "from-primary-600 to-accent-500" }
               ].map((item, index) => (
                 <div key={index} className="flex items-start space-x-4 group">
@@ -178,7 +178,7 @@ const Contact = () => {
                         value={formData.phone}
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-neutral-light rounded-2xl focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500 transition-all duration-300 bg-white/80 backdrop-blur-sm"
-                        placeholder="+34 600 000 000"
+                        placeholder="+34 655 90 92 17"
                       />
                     </div>
                     
