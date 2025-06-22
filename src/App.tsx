@@ -11,6 +11,7 @@ import LegalNoticePage from './pages/LegalNoticePage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import CookiesPolicyPage from './pages/CookiesPolicyPage';
 import TermsAndConditionsPage from './pages/TermsAndConditionsPage';
+import WhatsAppButton from './components/WhatsAppButton';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/politica-cookies" element={<CookiesPolicyPage />} />
           <Route path="/terminos-condiciones" element={<TermsAndConditionsPage />} />
         </Routes>
+        <WhatsAppButton />
       </div>
     </Router>
   );
